@@ -1,4 +1,3 @@
-class Role < ApplicationRecord
-  belongs_to :movie
-  belongs_to :actor
+class ApplicationRecord < ActiveRecord::Base
+  primary_abstract_class
 end
